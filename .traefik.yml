@@ -1,0 +1,10 @@
+displayName: Bitbucket Webhooks middlware
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/flaflibo/bbwebhooks
+
+summary: "[Bbwh] Process Bitbucket Webhooks"
+
+testData:
+  onMerge: "/tmp/merge.sh"
